@@ -42,5 +42,5 @@ I have **4+ years of experience in Adobe Experience Manager (AEM)** development 
 I enjoy **coding, exploring AI, and creating interactive web experiences**. I also love sharing knowledge and learning from others in the developer community.  
 
 ---
-
+my netlify link : https://effervescent-concha-61334e.netlify.app/
 Thanks for stopping by! Let’s **build something amazing together** 🚀
