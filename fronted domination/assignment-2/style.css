@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+html, body{
+    background-image: url('https://plus.unsplash.com/premium_photo-1701646601477-e2a3cfb0661e?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 100%;
+    height: 100%;
+   
+    background-size: cover;      /* Ensures image covers the screen */
+    background-repeat: no-repeat;/* Prevents repeating */
+    background-position: center; /* Centers the image */
+
+   
+
+}
+#main{
+           width: 100%;
+            height: 100%;
+             
+}   
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+#nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 18px;
+    color: rgb(243, 224, 255);
+}
+
+
+
+#main h1 {
+    font-weight: 400;
+    font-size: 22vw;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #00ffe7 0%, #7f00ff 50%, #ff0080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 24px rgba(127,0,255,0.3);
+}
+.btmleft {
+        font-size: 20px;
+        padding: 20px 10px;
+        margin-left: 70px;
+        position: absolute;
+        width: 300px;
+        top: 360px;
+        bottom: 20px;
+       
+        
+    }
+    
+    .btmleft h3{
+       
+        font-size: 20px;
+        margin-top: 5px;
+       background: linear-gradient(90deg, #00ffe5 0%, #8000ff 50%, #ff0080 60%, transparent 100%);
+        
+
+        
+    }
+    .btmleft p{
+
+        font-size: 15px;
+        margin-top: 5px;
+    }
+     #ctn {
+         font-size: 15px;
+         margin-top:2px;
+    }
+    #footer {
+       display: flex;
+       padding :10px 30px;
+       font-size: 10px;
+       justify-content: space-between;
+        position: absolute;
+        width: 100%;
+        bottom:0px;
+        
+    }
+    #footer a{
+        text-decoration: none;
+        font-size: 15px;
+        color:black;
+        padding:5px;
+        font-weight: 300;
+        background-color: beige;
+        border-radius: 30px;
+        
+    }
+     #footer h1{
+       
+        font-size: 15px;
+        color:black;
+        padding:5px;
+        font-weight: 300;
+        background-color: beige;
+        
+        
+    }
+#img {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center; /* changed from flex-start to center */
+    margin-top: 0;
+    position: fixed;     /* changed from absolute to fixed */
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+#img img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+  
+}
+
+#img2 {
+    width: 240px !important;
+    height: 320px !important;
+    transform: rotate(-4deg) translateY(20px);
+    object-fit: cover;
+     margin-left: 40% !important;
+      margin-top: 15% !important;
+    
+}
+
+#img3{
+    width: 180px !important;
+    height: 250px !important;
+    transform: rotate(4deg) translateY(40px);
+    object-fit: cover;
+     margin-left: 3% !important;
+      margin-top: 15% !important;
+      
+    
+}
+
+#img1 {
+    position: absolute !important;
+    display: flex !important;
+    justify-content: center !important;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+     margin-left: -17% !important;
+      margin-top: 15% !important;
+      transform: rotate(4deg) translateY(40px);
+      
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    /* Remove any transform or margin that may affect centering */
+   
+}
+#img img:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+
+
